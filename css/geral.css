@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-header:#141718;
+  --bg-btn:#141718;
+  --bg-card:#F3F5F7;
+  --bg-section:#FFF;
+  --bg-footer:#E2E4E3;
+  --bg2-footer:#141718;
+}
+html {
+  font-family: "Poppins", serif;
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.container {
+  width: 100%;
+  max-width: 120rem;
+  padding: 0 15px;
+  margin: 0 auto;
+}
