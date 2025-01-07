@@ -1,7 +1,11 @@
 /*Header*/
 .header {
   background-color: var(--bg-header);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 .header-logo {
   color: var(--bg-section);
