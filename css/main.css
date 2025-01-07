@@ -1,0 +1,45 @@
+/*Main*/
+.main {
+  background: url("../imgs/Placeholder.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:80rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.main-titulo {
+ margin: 22rem 17rem;
+}
+.main-titulo h1 {
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 84px;
+  letter-spacing: -3px;
+  
+}
+.main-titulo strong {
+  color: var(--strong);
+}
+.main-titulo p {
+  color: #121212;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 0.8rem;
+}
+.main-titulo button {
+  border: none;
+  border-radius: 0.8rem;
+  background-color: var(--bg-btn);
+  color: var(--bg-section);
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 1.4rem 4rem;
+  margin-top: 2.8rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.main-titulo button:hover {
+  background-color: var(--bg-section);
+  color: var(--bg-btn);
+}

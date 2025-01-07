@@ -1,3 +1,5 @@
+@import url("./header.css");
+@import url("./main.css");
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,7 @@
   --bg-section:#FFF;
   --bg-footer:#E2E4E3;
   --bg2-footer:#141718;
+  --strong:#377DFF;
 }
 html {
   font-family: "Poppins", serif;
@@ -31,43 +34,5 @@ img {
   max-width: 110rem;
   padding: 0 2rem;
   margin: 0 auto;
-}
-
-/*Header*/
-.header {
-  background-color: var(--bg-header);
-  padding: 20px 0;
-}
-.header-logo {
-  color: var(--bg-section);
-  font-size: 2.4rem;
-  font-weight: 400;
-}
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header-container .header-nav-bar ul {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-.header-container .header-nav-bar ul li a {
-  color: var(--bg-section);
-  font-size: 1.4rem;
-  font-weight: 400;
-}
-.header-icon {
-  display: flex;
-  gap: 2rem;
-}
-.header-icon img {
-  color: var(--bg-section);
-}
-.menu-hamburger {
-  color: var(--bg-section);
-  font-size: 4rem;
-  display: none;
 }
 
