@@ -1,0 +1,8 @@
+.section-banner {
+  display: flex;
+  margin-top: 19.2rem;
+}
+.section-banner-left, .section-banner-right {
+  width: 100%;
+  max-width: 70rem;
+}

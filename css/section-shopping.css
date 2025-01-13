@@ -1,0 +1,70 @@
+.section-shopping-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 19.2rem;
+}
+.section-shopping-card {
+  background-color: #F3F5F7;
+  width: 100%;
+  width: 16rem;
+  height: 12rem;
+  img {
+    padding-top:3.4rem;
+    padding-left: 2rem;
+    width:4rem;
+  }
+  h3 {
+    color: #141718;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top:1rem;
+    padding-left: 2rem;
+  }
+  span {
+    color: #6C7275;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding-top:2rem;
+    padding-left: 2rem;
+  }
+}
+.section-shopping-social-info {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  text-align: center;
+  span {
+    color: #6C7275;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+   
+  }
+  h3 {
+    color: #121212;
+    font-size: 4rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+  }
+  p {
+    color: #121212;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+  }
+  strong {
+    color: #6C7275;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+}
+.section-shopping-social-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.section-shopping-social-card {
+  width: 100%;
+  width: 22rem;
+}
