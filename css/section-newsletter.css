@@ -1,0 +1,17 @@
+.section-newsletter {
+  margin-top: 4rem;
+  height: 300px;
+  background: url("../imgs/Img-section-Newsletter-left.png");
+  text-align: center;
+  h3 {
+    padding-top: 10rem;
+    color: #121212;
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  p {
+    color: #121212;
+    font-size: 1.8rem;
+    font-weight: 200;
+  }
+}
