@@ -40,3 +40,27 @@
   font-size: 4rem;
   display: none;
 }
+
+/*Media Query*/
+@media(max-width:605px) {
+  .header-container {
+    flex-wrap: wrap;
+  }
+  .header-logo {
+    font-size: 2rem;
+  }
+  .header-container {
+    display:flex;
+    justify-content: center;
+  }
+  .header-container .header-nav-bar ul {
+    gap: 0.8rem;
+  }
+  .header-container .header-nav-bar ul li a {
+    font-size: 1rem;
+    margin-left: 1.4rem;
+  }
+  .header-icon {
+    display: none;
+  }
+}
